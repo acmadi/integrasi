@@ -1,0 +1,179 @@
+@extends(config('sentinel.layout'))
+
+{{-- Web site Title --}}
+@section('title')
+@parent
+Groups
+@stop
+
+{{-- Content --}}
+@section('content')
+<table id="dg"class="easyui-datagrid" title="DataGrid with Toolbar" data-options="rownumbers:true,singleSelect:true,toolbar:toolbar">
+    <thead>
+        <tr>
+            <th data-options="field:'Name'">Name</th>
+            <th data-options="field:'Permissions'">Permissions</th>
+            <th data-options="field:'Options'">Options</th>
+            <th data-options="field:'Akses'">Akses</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach ($groups as $group)
+        <tr>
+            <td><a href="{{ route('sentinel.groups.show', $group->hash) }}">{{ $group->name }}</a></td>
+            <td>       {{-- dd($group->with('akses')->get()) --}}  {{-- Builder --}}
+
+                        <?php
+                            $permissions = $group->getPermissions();
+                            $keys = array_keys($permissions);
+                            $last_key = end($keys);
+                            // dd($permissions);
+                        ?>
+                        @foreach ($permissions as $key => $value)
+                            {{ ucfirst($key) . ($key == $last_key ? '' : ', ') }}
+                        @endforeach 
+            </td>
+             <td>
+                 <button class="btn btn-default" onClick="location.href='{{ route('sentinel.groups.edit', [$group->hash]) }}'">Edit</button>
+                 <?php if (!array_key_exists('admin', $permissions)): ?>
+                     <button class="btn btn-default action_confirm {{ ($group->name == 'Admins') ? 'disabled' : '' }}" type="button" data-token="{{ csrf_token() }}" data-method="delete" href="{{ route('sentinel.groups.destroy', [$group->hash]) }}">Delete</button>
+                 <?php endif ?>
+
+             </td>
+             <td><a href="{{ route('sentinel.groups.show', $group->hash) }}"><!--{{ $group->name }}--> Edit Akses</a></td>
+         </tr>
+        </tr>
+        @endforeach
+    </tbody>
+</table>
+    <script type="text/javascript">
+        var toolbar = [
+        {
+            text:'Tambah Group',
+            iconCls:'icon-add',
+            handler:function(){
+                // alert('{{ route('sentinel.users.create') }}')
+                $('#dialog-x').dialog({
+                                title: 'Create Grouop',
+                                width: 500,
+                                height: 500,
+                                modal:true,
+                                // fit:true,
+                                href: '{{ route('sentinel.groups.create') }}'
+                         
+                            });    
+                    // $('#dialog-x').dialog('open');
+            }
+        }
+        ,{
+            text:'Edit Group',
+            iconCls:'icon-cut',
+            handler:function(){
+                alert('Edit Group')
+            }
+        },{
+            text:'Delete Group',
+            iconCls:'icon-save',
+            handler:function(){
+                alert('Delete Group')
+            }
+        },{
+            text:'Edit Action',
+            iconCls:'icon-save',
+            handler:function(){
+                alert('Edit Action')
+            }
+        },{
+            text:'Edit Permisi Menu',
+            iconCls:'icon-save',
+            handler:function(){
+                EditPermissionMennu();
+            }
+        }
+        ];
+       
+        function EditPermissionMennu(){
+            console.log('EditPermissionMennu');
+            $(this).attr('disabled', 'disabled');
+            var row = $('#dg').datagrid('getSelected');
+            console.log(row);
+            var url=findUrls(row.Name)[0];
+            console.log(url)
+            // console.log(row.Name);
+            return false;
+
+            if (row){
+                    $('#dialog-x').dialog({
+                                    title: 'Edit Permisi',
+                                    width: 350,
+                                    height: 180,
+                                    modal:true,
+                                    href: url,
+                                    buttons:[{
+                                        text:'Save',
+                                        handler:function (){                            
+                                            
+                                            }
+                                        },{
+                                        text:'Close ',
+                                        handler:function(){
+                                            $('#url').dialog('close');
+                                        }
+                                    }]
+                                });    
+                        // $('#dialog-x').dialog('open');
+                // $.messager.confirm('Confirm','Are you sure you want to Edit this user?',function(r){
+                //     if (r){
+                //         // $.post(url[0],
+                //         //     function(result){
+                //         //     $(this).attr('disabled', '');
+                //         //     var data = $.parseJSON(result);
+                //         //     console.log(data.msg);
+                //         //     $('#dg').datagrid('reload'); 
+                //         //     $.messager.alert('Info', data.msg, 'info');
+                //         //     if (data.code==200){
+                //         //             $.messager.show({   // show error message
+                //         //                 title: 'Ok',
+                //         //                 msg: data.msg
+                //         //             });
+                //         //         } else {
+                //         //         $.messager.show({   // show error message
+                //         //             title: 'Error',
+                //         //             msg: data.msg
+                //         //         });
+                //         //     }
+                //         // });
+                //     }
+                // });
+            }
+            else{
+                $.messager.alert('Info', ' <b>Anda harus memilih daftar file <br> dibawah terlebih dulu !!!</b>', 'info');
+            }
+        }
+
+        function findUrls( text )
+        {
+            var source = (text || '').toString();
+            var urlArray = [];
+            var url;
+            var matchArray;
+
+            // Regular expression to find FTP, HTTP(S) and email URLs.
+            var regexToken = /(((ftp|https?):\/\/)[\-\w@:%_\+.~#?,&\/\/=]+)|((mailto:)?[_.\w-]+@([\w][\w\-]+\.)+[a-zA-Z]{2,3})/g;
+
+            // Iterate through any URLs in the text.
+            while( (matchArray = regexToken.exec( source )) !== null )
+            {
+                var token = matchArray[0];
+                urlArray.push( token );
+            }
+
+            return urlArray;
+        }
+    </script>
+<script type="text/javascript">
+    $('#dg, #dx').datagrid();
+</script>
+
+@stop
+

@@ -1,0 +1,42 @@
+[{
+	"id":1,
+	"text":"<a href='coba'>Uplod</a>",
+	"attributes":{
+	    "url":"/demo/book/abc",
+	    "price":100
+	},
+	"children":[]
+},{
+	"id":2,
+	"text":"Excel ",
+	"state":"closed",
+	"children":[{
+		"id":21,
+		"text":"Excel 1",
+		
+		"children":[]
+	},{
+		"id":23,
+		"text":"Excel 2"
+	},{
+		"id":24,
+		"text":"Excel 3"
+	},{
+		"id":25,
+		"text":"Excel 4"
+	}]
+},{
+	"id":3,
+	"text":"Results",
+	"state":"closed",
+	"children":[{
+		"id":33,
+		"text":"Result Excel 1"
+	},{
+		"id":34,
+		"text":"Result Excel 2"
+	},{
+		"id":35,
+		"text":"Result Excel 3"
+	}]
+}]

@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "E:\\XAMPP_5.6.11\\htdocs\\easyui\\jquery-easyui-1.4.1\\demoku"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "E:\\XAMPP_5.6.11\\htdocs\\easyui\\jquery-easyui-1.4.1"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "E:\\XAMPP_5.6.11\\htdocs\\lumen"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+<?php
+
+return [
+
+	/*
+	|--------------------------------------------------------------------------
+	| Third Party Services
+	|--------------------------------------------------------------------------
+	|
+	| This file is for storing the credentials for third party services such
+	| as Stripe, Mailgun, Mandrill, and others. This file provides a sane
+	| default location for this type of information, allowing packages
+	| to have a conventional place to find your various credentials.
+	|
+	*/
+	[
+		"id"=>0,
+		"table"=>'bidang',
+	],[
+		"id"=>1,
+		"table"=>'dpa',
+	],[
+		"id"=>2,
+		"table"=>'kegiatan',
+	],[
+		"id"=>3,
+		"table"=>'organisasi_skpd',
+	],[
+		"id"=>4,
+		"table"=>'program',
+	],[
+		"id"=>5,
+		"table"=>'realisasi',
+	],[
+		"id"=>6,
+		"table"=>'rkpd',
+	],[
+		"id"=>7,
+		"table"=>'urusan',
+	]
+
+];

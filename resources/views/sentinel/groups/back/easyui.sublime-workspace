@@ -1,0 +1,1128 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"e-data",
+				"e-datagrid-setproperty	e-datagrid-setproperty"
+			],
+			[
+				"e-",
+				"e-massager-alert	easyui massanger alert"
+			],
+			[
+				"loc",
+				"location	Window"
+			],
+			[
+				"e-dia",
+				"e-dialog-setproperty	e-dialog-setproperty"
+			],
+			[
+				"else",
+				"elseif	elseif …"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"new",
+				"newEntry"
+			],
+			[
+				"aja",
+				"ajaxsetup	$.ajaxSetup()"
+			],
+			[
+				"e-do",
+				"e-dialog-setproperty	e-dialog-setproperty"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"ea",
+				"each	$.each()"
+			],
+			[
+				"el",
+				"else if()"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"e-m",
+				"e-messager-show	e_masanger_show"
+			],
+			[
+				"e-di",
+				"e-dialog-setproperty	e-dialog-setproperty"
+			],
+			[
+				"get",
+				"get	$.get()"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"e-d",
+				"e-dialog-setproperty	e-dialog-setproperty"
+			],
+			[
+				"e-da",
+				"e-datagrid-setproperty	e-datagrid-setproperty"
+			],
+			[
+				"atr",
+				"attr	.attr() - single"
+			],
+			[
+				"cons",
+				"console.log('$0');"
+			],
+			[
+				"Re",
+				"Request"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"ge",
+				"get	$.get()"
+			],
+			[
+				"js",
+				"js-log	javascript log debug"
+			],
+			[
+				"e-ge",
+				"e-messager-confirm	e-messager-confirm"
+			],
+			[
+				"da",
+				"datagrid"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"PRIN",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/E/XAMPP_5.6.11/htdocs/lumen/app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 908,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/XAMPP_5.6.11/htdocs/lumen/.demo.env",
+			"settings":
+			{
+				"buffer_size": 637,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Windows/System32/drivers/etc/hosts",
+			"settings":
+			{
+				"buffer_size": 973,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/XAMPP_5.6.11/apache/conf/extra/httpd-vhosts.conf",
+			"settings":
+			{
+				"buffer_size": 2920,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/XAMPP_5.6.11/htdocs/lumen/bootstrap/environment.php",
+			"settings":
+			{
+				"buffer_size": 1070,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/XAMPP_5.6.11/htdocs/lumen/bootstrap/app.php",
+			"settings":
+			{
+				"buffer_size": 3140,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/XAMPP_5.6.11/htdocs/lumen/vendor/laravel/lumen-framework/src/Application.php",
+			"settings":
+			{
+				"buffer_size": 47835,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/XAMPP_5.6.11/htdocs/lumen/vendor/vlucas/phpdotenv/src/Dotenv.php",
+			"settings":
+			{
+				"buffer_size": 9220,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Clipboard Manager: Next & Paste"
+			],
+			[
+				"snim",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"snm",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"snma",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"quic",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"qui",
+				"Quick File Move: Move Current File"
+			],
+			[
+				"Package Control: di",
+				"Package Control: Disable Package"
+			],
+			[
+				"clich",
+				"Clipboard Manager: Choose & Paste"
+			],
+			[
+				"clpa",
+				"Clipboard Manager: Paste"
+			],
+			[
+				"cli",
+				"Clipboard Manager: Choose & Paste"
+			],
+			[
+				"c",
+				"Clipboard Manager: Show History"
+			],
+			[
+				"Package Control:d",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: e",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: INS",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: d",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/XAMPP_5.6.11/htdocs/easyui/jquery-easyui-1.4.1/demoku",
+		"/E/XAMPP_5.6.11/htdocs/lumen",
+		"/E/XAMPP_5.6.11/htdocs/lumen/app",
+		"/E/XAMPP_5.6.11/htdocs/lumen/app/config",
+		"/E/XAMPP_5.6.11/htdocs/lumen/bootstrap",
+		"/E/XAMPP_5.6.11/htdocs/lumen/public",
+		"/E/XAMPP_5.6.11/htdocs/lumen/vendor",
+		"/E/XAMPP_5.6.11/htdocs/lumen/vendor/laravel",
+		"/E/XAMPP_5.6.11/htdocs/lumen/vendor/laravel/lumen-framework",
+		"/E/XAMPP_5.6.11/htdocs/lumen/vendor/laravel/lumen-framework/src",
+		"/E/XAMPP_5.6.11/htdocs/lumen/vendor/vlucas/phpdotenv"
+	],
+	"file_history":
+	[
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/E/XAMPP_5.6.11/apache/conf/extra/httpd-vhosts.conf",
+		"/E/XAMPP_5.6.11/htdocs/lumen/bootstrap/environment.php",
+		"/E/XAMPP_5.6.11/htdocs/lumen/bootstrap/app.php",
+		"/E/XAMPP_5.6.11/htdocs/lumen/.production.env",
+		"/E/XAMPP_5.6.11/htdocs/lumen/app/config/database.php",
+		"/E/XAMPP_5.6.11/htdocs/lumen/.laptop-prima.env",
+		"/E/XAMPP_5.6.11/htdocs/easyui/jquery-easyui-1.4.1/readme.txt",
+		"/E/XAMPP_5.6.11/htdocs/lumen/vendor/laravel/lumen-framework/composer.json",
+		"/E/XAMPP_5.6.11/htdocs/easyui/jquery-easyui-1.4.1/demoku/layout/datagrid_data1.json",
+		"/E/XAMPP_5.6.11/htdocs/lumen/app/Http/routes.php",
+		"/E/XAMPP_5.6.11/htdocs/lumen/public/index.php",
+		"/E/XAMPP_5.6.11/htdocs/lumen/config/production/database.php",
+		"/E/XAMPP_5.6.11/htdocs/easyui/jquery-easyui-1.4.1/demoku/layout/full.html",
+		"/E/XAMPP_5.6.11/htdocs/lumen/.local.env",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Http/routes.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Urusan.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/easyN/ListExcelUploaded.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Http/Controllers/ExcelController.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Kegiatan.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/OrganisasiSkpd.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Program.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Realisasi.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Dpa.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/easyN/app.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/sentinel/groups/listAkses.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/easyN/ExportDbGrid.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/easyN/ListDbResulted.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Http/Controllers/ResultDBController.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Group.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/User.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Fileentry.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Log.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/Middleware/SentryAdminAccess.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Http/Controllers/LogController.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/easyN/ImportExcelGrid.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/sentinel/users/show.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/sentinel/groups/create.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/sentinel/groups/index.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/sentinel/sessions/login.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/sentinel/users/index.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/FormRequests/EmailRequest.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/FormRequests/GroupCreateRequest.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/controllers/SessionController.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/sentinel/users/edit.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/sentinel/users/edit.blade.php.20150805",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/sentinel/users/create.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/routes.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/controllers/GroupController.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/sentinel/groups/show.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/sentinel/groups/listAksesx.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/phpoffice/phpexcel/Examples/GnumericReader.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/gulpfile.js",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/laravel50_Integrasi.sublime-project",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/public/asset - Copy/easyloader.js",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/public/asset - Copy/locale/easyui-lang-af.js",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/symfony/css-selector/Exception/SyntaxErrorException.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/server.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/controllers/ProfileController.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/phpunit/phpunit/tests/TextUI/failure-isolation.phpt",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/controllers/UserController.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/bootstrap/app.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/Middleware/SentryAuth.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/config/sentry.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/FormRequests/ResetPasswordRequest.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/FormRequests/RegisterRequest.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/FormRequests/LoginRequest.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/FormRequests/GroupUpdateRequest.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/FormRequests/UserCreateRequest.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/FormRequests/UserUpdateRequest.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/FormRequests/ChangePasswordRequest.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/symfony/finder/Symfony/Component/Finder/Exception/OperationNotPermitedException.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/phpunit/phpunit/tests/_files/JsonData/simpleObject.json",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/config/sentinel.php",
+		"/D/Documents/Downloads/Compressed/calm-breeze-login-screen/js/index.js",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/Handlers/UserEventHandler.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Providers/RouteServiceProvider.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources - Copy (2)/api-generator-templates/Scaffold/routes.txt",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources - Copy/api-generator-templates/Scaffold/routes.txt",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/api-generator-templates/Scaffold/routes.txt",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Http/routesBack03.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Http/routesBack02.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Http/routesBack01.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Http/routes Rumah.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/easyN/ListGrid.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/phpspec/phpspec/features/matchers/developer_uses_array_contain_matcher.feature",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/seeds/SentryUserSeeder.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/UriSigner.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/sentinel/users/register.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/.gitignore",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/Repositories/User/SentinelUserRepositoryInterface.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/laravel/framework/src/Illuminate/Database/Seeder.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/easyN/ListUploaded.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/composer/autoload_psr4.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/config/arrayactions.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/.env.example",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/.env",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/app/Http/Middleware/VerifyCsrfToken.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/.gitattributes",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources - Copy (2)/assets/less/app.less",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources - Copy/views/app.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources - Copy/assets/less/app.less",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/app.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/assets/less/app.less",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/public - Copy/css/app.css",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/public/css/app.css",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/config/app.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/public/asset - Copy/locale/easyui-lang-pl.js",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/integrasi 04.sql",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/composer/autoload_real.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/artisan",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/database/migrations/2015_01_14_053439_migration_sentinel_add_username.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/public/blank/sentinel-blank-theme.css",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/Commands/SentinelPublishCommand.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/rydurham/sentinel/src/Sentinel/Middleware/SentryAdminAccess Backup .php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/assets/less/bootstrap/responsive-embed.less",
+		"/C/Users/LENOVO/AppData/Roaming/Sublime Text 3/Packages/User/e_massager_alert.sublime-snippet",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/easyN/ExportDbGrid.blade.php.20150802",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/easyN/ListExcelUploaded05.blade.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/easyN/ImportExcelGrid.blade.php.20150802",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/resources/views/easyN/ListDbResulted.blade.php.20150802",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/public/asset/js/preview.js",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Event/PostResponseEvent.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/vendor/intervention/image/tests/PsrResponseCommandTest.php",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/package.json",
+		"/E/XAMPP_5.6.11/htdocs/integrasi/public/asset/css/list-rotator/list-rotator.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"E:\\XAMPP_5.6.11\\htdocs\\lumen\\vendor\\laravel",
+			"E:\\XAMPP_5.6.11\\htdocs\\lumen\\app"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"APP_FALLBACK_LOCALE",
+			"Dotenv",
+			"Enviro",
+			"environment",
+			"envi",
+			"environment",
+			"environment.php",
+			"environ",
+			"detect",
+			"Dotenv::load() ",
+			"productid",
+			"field",
+			"id",
+			"price",
+			"name",
+			"login",
+			"dialog-x",
+			"logout",
+			"LogOut",
+			"logout",
+			"Login",
+			"flogin",
+			"UAC",
+			"PreviewToImport",
+			"EventonLoadSuccess",
+			"Storage:",
+			"Storage",
+			"ile::",
+			"File",
+			"Sentry",
+			"newUpload",
+			"dialog-x",
+			"result",
+			"login",
+			"data",
+			"eval",
+			"reload",
+			"$table",
+			"table",
+			"data",
+			"Formlogin",
+			"login",
+			"form",
+			"loginSubmit",
+			"dlg",
+			"loginSubmit",
+			"login",
+			"0",
+			"login",
+			"form[0]",
+			"\">\n",
+			"loginSubmit",
+			"fm",
+			"table",
+			"Edit",
+			"edit",
+			"Edit",
+			"METHODE",
+			"toolbar",
+			"},",
+			"edit",
+			"',\n",
+			"dg",
+			"groups",
+			"UAC",
+			"dx",
+			"x-content",
+			"ON UPDATE CURRENT_TIMESTAMP",
+			"UPDATE CURRENT_TIMESTAMP",
+			"entries",
+			"get",
+			"{{",
+			"#dialogForm-IMPORT",
+			"ialogForm-IMPORT",
+			"newUpload",
+			"ddialog-x",
+			"DetailDataDB",
+			"ialog-xDB",
+			"dialog-ListExcel",
+			"dialo",
+			"dialog-ListExcel",
+			"x-datagrid",
+			"#dialog",
+			"dialog",
+			"ialog-xDB",
+			"ialog-x",
+			"Editable-export-{{ $idgrid}}",
+			"ExportToFile",
+			"append",
+			"Import",
+			"IMPORT",
+			"#dialog'",
+			"dialog",
+			"Preview",
+			"dialogForm",
+			"dx-datagrid",
+			"DeleteFromDB",
+			"DeleteFile",
+			"ListDbResulted-{{ $unikId}}",
+			"anyDeleteTable",
+			"ListDbResulted-{{ $unikId}}",
+			"DetailData",
+			"dialog",
+			"ON UPDATE CURRENT_TIMESTAMP",
+			"bidang",
+			"Simpan",
+			"simpan",
+			"tambah",
+			" ',",
+			"dx-datagrid",
+			"removeit",
+			"EditExcel",
+			"deleteFile",
+			"ListData-{{ $unikId}}",
+			"dx-datagrid",
+			"EditExcel",
+			"deleteFile",
+			"buildTree",
+			"json",
+			"ListUploaded",
+			"listUp",
+			"get",
+			"openx",
+			"”",
+			"“",
+			"##",
+			"x-datagrid",
+			"toolbar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/E/XAMPP_5.6.11/htdocs/lumen/app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/XAMPP_5.6.11/htdocs/lumen/.demo.env",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Windows/System32/drivers/etc/hosts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/E/XAMPP_5.6.11/apache/conf/extra/httpd-vhosts.conf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2920,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/XAMPP_5.6.11/htdocs/lumen/bootstrap/environment.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1070,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/E/XAMPP_5.6.11/htdocs/lumen/bootstrap/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/E/XAMPP_5.6.11/htdocs/lumen/vendor/laravel/lumen-framework/src/Application.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 47835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4369,
+								4369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2981.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/E/XAMPP_5.6.11/htdocs/lumen/vendor/vlucas/phpdotenv/src/Dotenv.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								549,
+								549
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 260.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.72582335137,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clipboard_manager":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "easyui.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"rou",
+				"lumen\\app\\Http\\routes.php"
+			],
+			[
+				"",
+				"lumen\\app\\Http\\routes.php"
+			],
+			[
+				"groucon",
+				"vendor\\rydurham\\sentinel\\src\\controllers\\GroupController.php"
+			],
+			[
+				"listak",
+				"resources\\views\\sentinel\\groups\\listAkses.blade.php"
+			],
+			[
+				"easy/app",
+				"resources\\views\\easyN\\app.blade.php"
+			],
+			[
+				"excon",
+				"app\\Http\\Controllers\\ExcelController.php"
+			],
+			[
+				"sentryaadmin",
+				"vendor\\rydurham\\sentinel\\src\\Sentinel\\Middleware\\SentryAdminAccess.php"
+			],
+			[
+				"exce",
+				"app\\Http\\Controllers\\ExcelController.php"
+			],
+			[
+				"filecon",
+				"vendor\\rydurham\\sentinel\\src\\controllers\\ProfileController.php"
+			],
+			[
+				"logcon",
+				"app\\Http\\Controllers\\LogController.php"
+			],
+			[
+				"ro",
+				"app\\Http\\routes.php"
+			],
+			[
+				"routes",
+				"app\\Http\\routes.php"
+			],
+			[
+				"sentryadmin",
+				"vendor\\rydurham\\sentinel\\src\\Sentinel\\Middleware\\SentryAdminAccess.php"
+			],
+			[
+				"excelcon",
+				"app\\Http\\Controllers\\ExcelController.php"
+			],
+			[
+				"sentryadin",
+				"vendor\\rydurham\\sentinel\\src\\Sentinel\\Middleware\\SentryAdminAccess.php"
+			],
+			[
+				"sentryadn",
+				"vendor\\rydurham\\sentinel\\src\\Sentinel\\Middleware\\SentryAdminAccess.php"
+			],
+			[
+				"seoncon",
+				"vendor\\rydurham\\sentinel\\src\\controllers\\SessionController.php"
+			],
+			[
+				"uercon",
+				"vendor\\rydurham\\sentinel\\src\\controllers\\UserController.php"
+			],
+			[
+				"route",
+				"vendor\\rydurham\\sentinel\\src\\routes.php"
+			],
+			[
+				"easyn/app",
+				"resources\\views\\easyN\\app.blade.php"
+			],
+			[
+				"userscontro",
+				"vendor\\rydurham\\sentinel\\src\\controllers\\UserController.php"
+			],
+			[
+				"sentinel/users/show.blade",
+				"resources\\views\\sentinel\\users\\show.blade.php"
+			],
+			[
+				"sentinel/user/in",
+				"resources\\views\\sentinel\\users\\index.blade.php"
+			],
+			[
+				"groupcon",
+				"vendor\\rydurham\\sentinel\\src\\controllers\\GroupController.php"
+			],
+			[
+				"lise",
+				"resources\\views\\easyN\\ListExcelUploaded.blade.php"
+			],
+			[
+				"listup",
+				"resources\\views\\easyN\\ListUploaded.blade.php"
+			],
+			[
+				"easyapp",
+				"resources\\views\\easyN\\app.blade.php"
+			],
+			[
+				"app",
+				"bootstrap\\app.php"
+			],
+			[
+				"liste",
+				"resources\\views\\easyN\\ListExcelUploaded.blade.php"
+			],
+			[
+				"listex",
+				"resources\\views\\easyN\\ListExcelUploaded.blade.php"
+			],
+			[
+				"verifycsrftoken.php",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php"
+			],
+			[
+				"easapp",
+				"resources\\views\\easyN\\app.blade.php"
+			],
+			[
+				"array",
+				"config\\arrayactions.php"
+			],
+			[
+				"excelco",
+				"app\\Http\\Controllers\\ExcelController.php"
+			],
+			[
+				"log",
+				"app\\Log.php"
+			],
+			[
+				"sentineladmin",
+				"vendor\\rydurham\\sentinel\\src\\Sentinel\\Middleware\\SentryAdminAccess.php"
+			],
+			[
+				"resul",
+				"app\\Http\\Controllers\\ResultDBController.php"
+			],
+			[
+				"log.",
+				"app\\Log.php"
+			],
+			[
+				"/",
+				"app\\Http\\Controllers\\LogController.php"
+			],
+			[
+				"logcontroller",
+				"app\\Http\\Controllers\\LogController.php"
+			],
+			[
+				"importexcelgrid",
+				"resources\\views\\easyN\\ImportExcelGrid.blade.php"
+			],
+			[
+				"excel",
+				"app\\Http\\Controllers\\ExcelController.php"
+			],
+			[
+				"exportdbgrid",
+				"resources\\views\\easyN\\ExportDbGrid.blade.php"
+			],
+			[
+				"listre",
+				"resources\\views\\easyN\\ListDbResulted.blade.php"
+			],
+			[
+				"listexceluploaded",
+				"resources\\views\\easyN\\ListExcelUploaded.blade.php"
+			],
+			[
+				"listdbresulted",
+				"resources\\views\\easyN\\ListDbResulted.blade.php"
+			],
+			[
+				"resuldb",
+				"app\\Http\\Controllers\\ResultDBController.php"
+			],
+			[
+				"uploa",
+				"resources\\views\\easyN\\ListUploaded.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

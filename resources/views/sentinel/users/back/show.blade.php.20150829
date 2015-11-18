@@ -1,0 +1,154 @@
+
+
+<div class="easyui-layout" data-options="fit:true">
+	<div data-options="region:'center'">
+		<div id="tt" class="easyui-tabs" fit="true">
+			<div title="--== Profil Anda ==--">
+			<div class="isi">
+			<div id="SubContent" style="display: inline-block; width: 45%; padding: 10px; background:  none repeat scroll 0% 0%;">
+			<!-- <div class="strip">
+				<div class="odd">
+					sfasfafasf
+				</div>
+				<div class="even">
+					sfsafafafsdfasfasdff
+				</div>
+			</div> -->
+		<!-- 	<table>
+				<tr>
+					<td>aa</td>
+					<td>aa</td>
+					<td>aa</td>
+					<td>aa</td>
+					<td>a</td>
+				</tr><tr>
+					<td>aa</td>
+					<td>aa</td>
+					<td>aa</td>
+					<td>aa</td>
+					<td>a</td>
+				</tr><tr>
+					<td>aa</td>
+					<td>aa</td>
+					<td>aa</td>
+					<td>aa</td>
+					<td>a</td>
+				</tr><tr>
+					<td>aa</td>
+					<td>aa</td>
+					<td>aa</td>
+					<td>aa</td>
+					<td>a</td>
+				</tr>
+			</table> -->
+				<?php
+        // Determine the edit profile route
+				if (($user->email == Sentry::getUser()->email)) {
+					$editAction = route('sentinel.profile.edit');
+				} else {
+					$editAction =  action('\\Sentinel\Controllers\UserController@edit', [$user->hash]);
+				}
+				?>
+
+				<!-- <h4>Account Profile</h4> -->
+
+				<div class="well clearfix">
+					<div class="col-md-8">
+						@if ($user->first_name)
+						<p><strong>First Name:</strong> {{ $user->first_name }} </p>
+						@endif
+						@if ($user->last_name)
+						<p><strong>Last Name:</strong> {{ $user->last_name }} </p>
+						@endif
+						<p><strong>Email:</strong> {{ $user->email }}</p>
+
+					</div>
+					<div class="col-md-4">
+						<p><em>Account created: {{ $user->created_at }}</em></p>
+						<p><em>Last Updated: {{ $user->updated_at }}</em></p>
+						<button class="btn btn-primary" onClick="javascript:EditProfile('{{ $editAction }}')">Edit Profile</button>
+					</div>
+				</div>
+
+				<h4>Group Memberships:</h4>
+				<?php $userGroups = $user->getGroups(); ?>
+				<div class="well">
+					<ul>
+						@if (count($userGroups) >= 1)
+						@foreach ($userGroups as $group)
+						<li>{{ $group['name'] }}</li>
+						@endforeach
+						@else 
+						<li>No Group Memberships.</li>
+						@endif
+					</ul>
+				</div>
+				</div>
+				<!-- <div style="display: inline-block; width: 45%; padding: 10px; background: blue none repeat scroll 0% 0%;">
+						<div id="SubForm">sdasrasfafasdfasdfasdfasdfasdfasdfafasdfasdfasdf</div>
+
+				</div> -->
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$('#content-x').find('.easyui-layout').layout()
+	$('#content-x').find('.easyui-tabs').tabs()
+	$('.easyui-datagrid').datagrid();
+	function EditProfile (url) {
+			$('#windowA').empty()
+			// $('#SubForm').empty()
+		 //    $('#SubForm').panel({
+			// href:url,
+			// onLoad:function(){
+			//     alert('loaded successfully');
+			// }
+			// });
+		$('#windowA').window({href:url,
+			iconCls:'icon-save',
+			title:'Edit User ',
+			modal:true,
+			cache:false,
+			onBeforeClose:function  (argument) {
+	                // alert('on before')
+	                // return false
+
+	            },
+	            onLoad:function  (param) {
+	                // $('#jenis_sppd_id').combobox({
+	                //     url:'{{route('suplay.jenis-sppd.combobox')}}',
+	                //     valueField:'id',
+	                //     textField:'nama_jenis_sppd'
+	                // });
+	                // $('#skpd_id').combobox({
+	                //     url:'{{route('suplay.skpd.combobox')}}',
+	                //     valueField:'id',
+	                //     textField:'nama_skpd'
+	                // });
+	                // $('#penerima_id').combobox({
+	                //     url:'{{route('suplay.skpd.combobox')}}',
+	                //     valueField:'id',
+	                //     textField:'nama_singkat_skpd'
+	                // });
+	                // $('#update').hide();
+	                //     $('#simpan').show();
+	                //     $('#F-INPUT').form('clear');
+	                //     if ($('#F-INPUT').find("input[name='_method']").length >= 1) {
+	                //         $('#F-INPUT').find("input[name='_method']").remove();
+	                //     };
+
+	                
+	            },
+	            onBeforeLoad: function  (param) {
+	                // console.log('onbeforeLoad');
+	                // alert(param)
+	            }
+	        });
+	    // $('#windowA').window('refresh');
+	}
+</script>

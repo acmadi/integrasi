@@ -1,0 +1,68 @@
+<?php $aksess=$group->akses->toArray(); ?>
+
+    {{-- print_r($actions) --}}
+    {{-- dd($group->akses()) --}}{{-- Return hasmany Object  --}}
+    {{-- print_r($group->toArray()) --}}{{-- Return data --}}
+    {{-- dd($group->akses->toArray()) --}}{{-- one TO Many string(85) "select * from `akses` where `akses`.`group_id` = ? and `akses`.`group_id` is not null"  --}}
+
+     <form method="POST" action="{{ route('akses.i') }}" accept-charset="UTF-8">
+
+	    <ul>
+	    @foreach($dataakses as $key => $action)
+	    	<li>
+	   		 <!--Controllers : {{ $action['Controllers'] }} methode => {{ $action['methode'] }} -> name -->{{ $action['name'] }}
+	    		
+	    		<?php $tanda=0; $id_akses=0; $viewakses=0; $arr_id='0'; 
+	    				//default
+	    				$id_akses='belum ada';
+    					$arr_id=$key;
+	    				$id_akses=null; 
+	    				$aksesvalue=0;
+	    		?>
+				    	{{-- cocokan  --}}			
+	    			@if(count($aksess))
+			    		@foreach($aksess as $akses )
+			    			<?php 
+			    				//$v_id_akses=$akses['id'];
+			    				if ($akses['arr_id']== $key ){
+				    				$id_akses=$akses['id'];
+			    					$viewakses=$akses['akses'];
+			    					$arr_id=$akses['arr_id'];
+			    					$aksesvalue=$akses['akses'];
+			    					break;
+			    				}
+			    				else{
+			    					if ($tanda==0){
+				    				//$v_id_akses='belum ada';
+			    					$viewakses=$action['akses'];
+			    					$arr_id=$key;
+			    					}
+
+			    				}
+			    			?>
+			    		@endForeach
+			    	@endIf
+	    			<!--Id Akses { dari db } : {{-- $v_id_akses --}} ->
+	    			Arr ID Akses : {{ $arr_id }} ->
+	    			Akses : {{ $viewakses }} <br>
+					-->
+			    	Id : <input type="hidden" name="data[{{$key}}][id]" value="{{ $id_akses }}">
+			    	group_id: <input type="hidden" name="data[{{$key}}][group_id]" value="{{ $group->id }}">
+			    	akses: <input type="hidden" name="datax[{{$key}}][akses]" value="{{ $aksesvalue }}">
+			    	<?php if($aksesvalue == 1){?> 
+				    	<input type="radio" name="data[{{$key}}][akses]" value="1" checked > Aktif 
+				    	<input type="radio" name="data[{{$key}}][akses]" value="0"> Nonaktif
+			    	<?php }else{?>
+				    	<input type="radio" name="data[{{$key}}][akses]" value="1"  > Aktif 
+				    	<input type="radio" name="data[{{$key}}][akses]" value="0" checked> Nonaktif
+			    	<?php }?>
+			    	arr_id : <input type="hidden" name="data[{{$key}}][arr_id]" value="{{ $arr_id }}">
+			    	<br>
+	    	</li>    	
+	    @endForeach
+	    </ul>
+       
+        <input name="_token" value="{{ csrf_token() }}" type="hidden">
+        <input class="btn btn-primary" value="Save Changes" type="submit">
+
+    </form>
